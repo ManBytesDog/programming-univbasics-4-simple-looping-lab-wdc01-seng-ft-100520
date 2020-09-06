@@ -24,10 +24,12 @@ end
 
 def return_string_array(array)
   index = 0 
+  new_array = []
   while index < array.length do 
-    p array[index].to_s
+    new_array.push(array[index].to_s)
     index += 1 
   end
+  new_array
 end 
   
   
